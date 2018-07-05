@@ -15,8 +15,10 @@
     "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
+    "autoprefixer": "^8.6.4",
     "css-loader": "^0.28.11",
     "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
     "webpack-cli": "^3.0.8"
