@@ -1,4 +1,4 @@
-import current from './modules/request1';
+import current from './modules/switch-map';
 import './sass/index.scss';
 
 current();
