@@ -1,5 +1,5 @@
-import { of, from } from 'rxjs';
-import { tap, mapTo, switchMap, delay, share } from 'rxjs/operators';
+import { Observable, of } from 'rxjs';
+import { tap, switchMap, delay, share } from 'rxjs/operators';
 
 export default function subject() {
 
@@ -41,7 +41,7 @@ export default function subject() {
       client: 'Analityc',
       statusTitle: ''
     }]).pipe(
-      tap((reports) => console.log('reports side effect')),
+      tap((reports) => console.log('reports side effect', reports)),
       share()
     );
   }
